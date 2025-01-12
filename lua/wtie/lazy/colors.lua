@@ -14,6 +14,7 @@ return {
 
     {
         "folke/tokyonight.nvim",
+        name = "tokyo-night-storm",
         lazy = false,
         opts = {},
         config = function()
@@ -52,6 +53,7 @@ return {
     },
     {
         "folke/tokyonight.nvim",
+        name = "tokyo-night-storm",
         config = function()
             require("tokyonight").setup({
                 -- your configuration comes here

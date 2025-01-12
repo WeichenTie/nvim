@@ -12,6 +12,7 @@ require("wtie.lazy_init")
 
 -- DO NOT INCLUDE THIS
 -- DO.not
+vim.opt.termguicolors = false
 
 local augroup = vim.api.nvim_create_augroup
 local WTieGroup = augroup('WTie', {})
