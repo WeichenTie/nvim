@@ -14,7 +14,7 @@ return {
 
     {
         "folke/tokyonight.nvim",
-        name = "tokyo-night-storm",
+        name = "tokyo-night",
         lazy = false,
         opts = {},
         config = function()
