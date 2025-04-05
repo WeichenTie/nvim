@@ -3,7 +3,7 @@ local map = vim.keymap.set
 vim.g.mapleader = " "
 
 map("n", "<leader>pv", vim.cmd.Ex)
-map("n", "<leader>rrr", ":luafile ~/.config/nvim/lua/config/keymaps.lua<CR>", { desc = "Reload keymaps" })
+map("n", "<leader>rrrr", ":luafile ~/.config/nvim/lua/config/keymaps.lua<CR>", { desc = "Reload keymaps" })
 
 -- Move to window using the <ctrl> hjkl keys
 map("n", "<C-h>", "<C-w>h", { desc = "Go to Left Window", remap = true })
