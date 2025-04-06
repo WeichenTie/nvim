@@ -10,6 +10,7 @@ return {
 		explorer = {
 			enabled = true,
 			replace_netrw = true,
+			show_git_diff = false,
 		},
 		indent = { enabled = true },
 		input = { enabled = true },

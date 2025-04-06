@@ -17,6 +17,7 @@ return {
 				"html",
 				"typescript",
 				"tsx",
+				"php",
 				"scss",
 				"css",
 			},
